@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-    <style>
+
 
       h1{
+        font-size: 65px;
+        color: orange;
         font-family: sans-serif;
         text-align: center;
         text-decoration: underline;
       }
+        
+
+        ul{
+            color: yellow;
+        }
+
+        .Nicole{
+            background-color: green;
+        }
+
+
+      
 
       p{
         font-weight: 600;
@@ -34,17 +43,3 @@
         color: brown;
       }
 
-
-    
-    </style>
-  </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul>
-      <li id="corAmarelo">Amarelo</li>
-      <li id="corVermelho">Vermelho</li>
-      <li id="corMarrom">Marrom</li>
-    </ul>
-  </body>
-</html>

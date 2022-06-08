@@ -1,5 +1,5 @@
 
-Exercício 1:
+etapa 1:
 
 
 index.html
@@ -27,7 +27,7 @@ Copiar
 3 - Modifique a cor de fundo da lista não ordenada
 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo
 
-Exercício 2:
+etapa 2:
 
 index.html
 Copiar
@@ -54,3 +54,26 @@ Copiar
 4 - Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body
 5 - Explore as propriedades font-style, line-height, text-align e text-decoration
 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
+
+resolução:
+
+index.html
+Copiar
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Exercícios 3.2</h1>
+    <p>Qual é a sua cor favorita?</p>
+    <ul>
+      <li>Amarelo</li>
+      <li>Vermelho</li>
+      <li>Marrom</li>
+    </ul>
+  </body>
+</html>
+1 - Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
