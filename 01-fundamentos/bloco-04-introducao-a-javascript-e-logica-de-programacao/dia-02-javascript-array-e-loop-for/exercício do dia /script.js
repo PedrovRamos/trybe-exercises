@@ -52,7 +52,9 @@ if (resultado / numbers.length > 20){
 
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let maiorValor
+let max = Math.max(...numbers)
+
+console.log(max)
 
 // Exercício 06
 
@@ -78,22 +80,9 @@ if (vezes === 0){
 
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let maior
+let min = Math.min(...numbers)
 
-for (let index = 0; index < numbers.length; index++){
-    
-    for (let i = 0; i < numbers.length; i++){
-        if (numbers[index] >= numbers[i]){
-            maior++
-            break
-        }
-    }
-
-    if (maior == 1){
-        console.log(numbers[index])
-        break
-    }
-}
+console.log(min)
 
 // Exercício 08
 
@@ -119,4 +108,3 @@ const array = [
  }
 
  console.log(array)
-
