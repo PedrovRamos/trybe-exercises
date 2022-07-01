@@ -47,6 +47,21 @@ function createDaysOfTheWeek() {
 
     createDaysOfDecember();
 
+    function creatButton (feriados){
+
+      const buttonContainer = document.getElementsByClassName("buttons-container")[0]
+
+      let creatButton = document.createElement("button")
+      creatButton.setAttribute("id", "btn-holiday")
+      creatButton.setAttribute("name", feriados)
+      
+      buttonContainer.appendChild(creatButton)
+
+
+    }
+
+    creatButton("Feriados");
+
 
 
 
