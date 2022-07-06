@@ -51,16 +51,58 @@ function createDaysOfTheWeek() {
 
       const buttonContainer = document.getElementsByClassName("buttons-container")[0]
 
-      let creatButton = document.createElement("button")
-      creatButton.setAttribute("id", "btn-holiday")
-      creatButton.setAttribute("name", feriados)
+      let createButton = document.createElement("button")
+      createButton.setAttribute("id", "btn-holiday")
+      createButton.setAttribute("name", feriados)
       
-      buttonContainer.appendChild(creatButton)
+      buttonContainer.appendChild(createButton)
 
 
     }
 
     creatButton("Feriados");
+
+    function changeBackgroundColor (){
+
+      const button = document.getElementById("btn-holiday")
+
+      let holidays = document.getElementsByClassName("holiday")
+
+      for (let index of holidays){
+
+        index.style.backgroundColor = "rgb(238,238,238)"
+        
+      }
+
+      
+
+      button.addEventListener("click", function (){
+
+
+        for (let index of holidays){
+
+          index.style.backgroundColor = "yellow"
+          
+        }
+        
+      } )
+
+      
+
+
+
+      
+
+      
+      
+      
+
+    }
+
+    changeBackgroundColor()
+
+
+
 
 
 
