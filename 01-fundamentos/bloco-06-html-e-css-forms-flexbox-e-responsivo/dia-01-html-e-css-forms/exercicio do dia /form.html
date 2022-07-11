@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Trip</title>
+</head>
+<body>
+
+    
+    <main>
+        
+        <form action="" method="get">
+            
+            <h1>Formulário para a <br><em>Trybe Trip</em></h1>
+
+            
+            <br>
+
+            <div class="form-line">
+                <label for="name-input">
+                    Nome: <input id="name-input" 
+                    minlength="10"
+                    maxlength="40"
+                    type="text" name="nome">
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="email-input">
+                    E-mail: <input id="email-input" 
+                    minlength="10"
+                    maxlength="50"
+                    type="email" name="email">
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="option-input">
+                    <input class="option-input" type="radio" name="destino"> Cidade
+                    <input class="option-input" type="radio" name="destino"> Campo
+                    <input class="option-input" type="radio" name="destino"> Praia
+                    <input class="option-input" type="radio" name="destino"> Montanhas
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="anwser-input">
+                    Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+                    <br>
+                    <br>
+                   <textarea maxlength="500" id="anwser-input" type="textarea" name="resposta" rows="10" cols="50"></textarea>
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="date-input">
+                    Data: <input id="date-input" type="date" name="data">
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="check-box-1">
+                    <input id="check-box-1" type="checkbox" name="check-1"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? 
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="check-box-2">
+                    <input id="check-box-2" type="checkbox" name="check-2"> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. 
+                </label>
+            </div>
+
+            <div class="form-line">
+                <label for="submit-button">
+                    <button id="submit-button" type="submit">Enviar</button>
+                </label>
+
+                <label for="reset-button">
+                    <button id="reset-button" type="reset">Limpar</button>
+                </label>
+            </div>
+
+
+
+        </form>
+        <script src="script.js"></script>
+    </main>
+
+</body>
+</html>

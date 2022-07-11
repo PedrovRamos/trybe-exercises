@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body class="bg-dark">
+    
+    <main class="container">
+
+        <header class="text-center my-3 bg-light rounded p-4" >
+            <h1>Formulário para a <br><em>Trybe Trip</em></h1>
+        </header>
+        
+        <form action="" method="get" class="bg-light p-5 rounded">
+
+
+            
+            
+
+            <div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="name-input">
+                        Nome: 
+                    </label>
+                    <input class="form-control" id="name-input" 
+                        minlength="10"
+                        maxlength="40"
+                        type="text" name="nome">
+                </div>
+
+                <div class="form-line">
+                    <label class="form-label" for="email-input">
+                        E-mail: 
+                    </label>
+                    <input class="form-control mb-3" id="email-input" 
+                        minlength="10"
+                        maxlength="50"
+                        type="email" name="email">
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="destino"> 
+                    <label class="form-check-label" for="option-input">
+                         Cidade
+                    </label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="destino"> 
+                    <label class="form-check-label" for="option-input">
+                         Campo
+                    </label>
+                </div>
+
+                <div class="form-check form-check-inline mb-3">
+                    <input class="form-check-input" type="radio" name="destino"> 
+                    <label class="form-check-label" for="option-input">
+                         Montanhas
+                    </label>
+                </div>
+                    
+                    
+                
+                
+                
+                    
+                        
+
+                <div class="form-floating">
+                    <textarea style="height: 200px" class="form-control mb-3" placeholder="Leave a comment here" maxlength="500" id="anwser-input" type="textarea" name="resposta" rows="10" cols="50"></textarea>
+                    <label class="floatingTextarea" for="anwser-input">
+                        Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+                    </label>
+                        
+                        
+                        
+                </div>
+
+                <div class="form-line">
+                    <label class="form-label"  for="date-input">
+                        Data: 
+                    </label>
+                    <input class="form-control" id="date-input" type="date" name="data">
+                </div>
+
+                <div class="form-line">
+                    <label for="check-box-1">
+                        <input id="check-box-1" type="checkbox" name="check-1"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? 
+                    </label>
+                </div>
+
+                <div class="form-line">
+                    <label for="check-box-2">
+                        <input id="check-box-2" type="checkbox" name="check-2"> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. 
+                    </label>
+                </div>
+
+                <div class="form-line">
+                    <label for="submit-button">
+                        <button id="submit-button" type="submit">Enviar</button>
+                    </label>
+
+                    <label for="reset-button">
+                        <button id="reset-button" type="reset">Limpar</button>
+                    </label>
+                </div>
+
+            </div>
+
+        </form>
+
+    </main>
+
+    
+</body>
+
+</html>
